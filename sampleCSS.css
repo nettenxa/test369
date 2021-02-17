@@ -58,7 +58,7 @@ div.Jus {
 
 .grid {
 	  display: grid;
-	  grid-template-columns: 1fr auto;
+	  grid-template-columns: 300px auto;
 	  grid-template-rows: 100px auto 200px;
 	  grid-template-areas: 
 	  	'header header'
