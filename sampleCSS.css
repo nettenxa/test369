@@ -12,6 +12,7 @@ div[class] {
 .fas {
     color: red;
 }
+/* ...................... */
 
 div.Center {
     text-align: center;
@@ -55,25 +56,50 @@ div.Jus {
   /* ............. */
 
 
-  .grid {
+.grid {
 	  display: grid;
 	  grid-template-columns: 1fr auto;
 	  grid-template-rows: 100px auto 200px;
 	  grid-template-areas: 
 	  	'header header'
-		'leftbar main'
-		'footer footer';
+		'leftbar rightbar '
+		'footer footer'
+		'end end';
   }
 
 .page-header {
 	grid-area: header;
 }
-.page-header {
+.page-leftbar {
 	grid-area: leftbar;
 }
-.page-header {
-	grid-area: main;
+.page-rightbar {
+	grid-area: rightbar;
 }
-.page-header {
+.page-footer {
 	grid-area: footer;
 }
+.page-end {
+	grid-area: end;
+}
+ul {
+	display: inline;
+	white-space: nowrap;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+li {
+	display: inline;
+	padding-left: 14px;
+}
+
+li a {
+	color: black;
+	text-decoration: none;
+}
+
+p span {
+	display: block;
+  }
