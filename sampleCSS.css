@@ -1,18 +1,19 @@
 /* div[class] {
     border: 1px solid gray;
-}
+} */
 .cards-component>div:nth-child(odd) {
-	position: left;
     background-color: lightgray;
+	text-align: right;
 }
 .cards-component>div:nth-child(even) {
-	position: right;
     background-color: lightgoldenrodyellow;
+	text-align: left;
+
 }
 .fas {
     color: red;
 }
-...................... */
+/* ...................... */
 
 div.Center {
     text-align: center;
@@ -73,6 +74,7 @@ div.Jus {
 	grid-area: leftbar;
 	/* background-color: #501478; */
 }
+
 .page-rightbar {
 	grid-area: rightbar;
 	/* background-color: #774a96 */
