@@ -1,0 +1,30 @@
+div[class] {
+    border: 1px solid gray;
+}
+.cards-component>div:nth-child(odd) {
+    background-color: lightgray;
+}
+.cards-component>div:nth-child(even) {
+    background-color: lightgoldenrodyellow;
+}
+.fas {
+    color: red;
+}
+
+div.Upper {
+    text-align: center;
+}
+div.Left {
+    text-align: left;
+  }
+  
+div.Right {
+    text-align: right;
+}
+  
+div.Jus {
+    text-align: justify;
+}
+div.headColor {
+    background-color: #50C878;
+}
