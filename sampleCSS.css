@@ -25,10 +25,7 @@ div.Left {
 div.Right {
     text-align: right;
 }
-  
-div.Jus {
-    text-align: justify;
-}
+
 .header {
 		color: #ffffff;
 		padding: auto;
@@ -91,7 +88,7 @@ ul {
 	margin: 0;
 }
 
-li {
+li {	
 	display: inline;
 	padding-left: 14px;
 }
