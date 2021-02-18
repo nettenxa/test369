@@ -85,7 +85,6 @@ div.Jus {
 
 ul {
 	display: inline;
-	text-align: center;
 	white-space: nowrap;
 	list-style: none;
 	padding: 0;
@@ -94,7 +93,6 @@ ul {
 
 li {
 	display: inline;
-	text-align: center;
 	padding-left: 14px;
 }
 
@@ -111,7 +109,9 @@ h4 {
 	color: black;
 }
 h1 {
+	text-align: center;
 	color: black;
+	background-color: #50C878
 }
   /* Dropdown Button */
   .dropdown {
