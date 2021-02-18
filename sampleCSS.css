@@ -160,15 +160,13 @@ a:hover, a:visited, a:link, a:active {
 	text-decoration: none;
 	display: block;
   }
-#newsletter-subscribe{
+/* #newsletter-subscribe{
 	display: none;
 	position: absolute;
-	left: 70%;
-	top: 10%;
-	background-color: coral;
+	left: 0%;
+	top: 100%;
 }
 .header:hover #newsletter-subscribe{
 	display: block;
-	background-color: bisque;
-}
+} */
 
