@@ -3,26 +3,27 @@
 
 <head>
     <!-- partial web site from WIRED https://www.wired.com/category/backchannel/-->
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" http-equiv="Content-Type" content="text/html; charset=UTF-8 ">
     <script src="https://kit.fontawesome.com/8f5a3f91f5.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="sampleCSS.css">
 </head>
 
+<!-- ...Header... -->
 <body>
-    <header class="header">
-        <div id="logo-bar" class="logo-bar page-header content">
+    <header class="page-header">
+        <div id="logo-bar" class="logo-bar">
             <a class="logo logo--header" to="/" href="/"><i class="fab fa-hive"></i></a>
-            <div class="logo-bar__wrapper">
+            <div class="logo-bar__wrapper Center">
                 <h1>Backchannel</h1>
             </div>
-            <div class="header_account-links">
+            <div class="header_account-links Right">
                 <div>
                     <div><a to="/account/sign-in/" href="/account/sign-in">Sign In</a></div>
                 </div>
             </div>
             <div>
-                <div>
-                    <div><a href="https://subscribe.wired.com/subscribe/splits/wired/WIR_FAILSAFE?source=HCL_WIR_MOBILE_NAVBAR_FAILSFE_0"
+                <div id="aa">
+                    <div visibility: hidden;><a href="https://subscribe.wired.com/subscribe/splits/wired/WIR_FAILSAFE?source=HCL_WIR_MOBILE_NAVBAR_FAILSFE_0"
                             target="_blank">
                             <img src="https://static.wired.com/projects/CM-fallbacks/www/img/cm-failsafe-subscribe-button-5-30-18.png"
                                 srcset="https://static.wired.com/projects/CM-fallbacks/www/img/cm-failsafe-subscribe-button-5-30-18.png"></a>
@@ -32,7 +33,10 @@
                                 srcset="https://static.wired.com/projects/CM-fallbacks/www/img/cm-failsafe-subscribe-button-5-30-18.png"></a>
                     </div>
                 </div>
-                <div><a target="_blank" to="#" rel="" href="#">Subscribe</a></div>
+
+                <div class="Right"><a target="_blank" to="#" rel="" href="#">Subscribe</a></div>
+
+
             </div>
             <button><i aria-label="Search Icon" class="fas fa-search"></i></button>
         </div>
@@ -48,7 +52,7 @@
             </ul>
         </nav>
         <div class="panel--nav">
-            <div class="search-form-component">
+            <div class="search-form-component ">
                 <form autocomplete="off">
                     <fieldset><input name="searchInput" value=""><label>Search</label><input type="submit"
                             id="search-submit"></fieldset>
@@ -103,6 +107,7 @@
                 </ul>
             </div>
         </div>
+        
         <div id="newsletter-subscribe">
             <div>
                 <div>
@@ -172,9 +177,12 @@
             </div>
         </div>
     </header><i class="fas fa-bars"></i>
-    <div class="wrapper-cards">
+<!-- ...EndHeader... -->
+
+<!-- ...Body...  -->
+    <div class="wrapper-cards page-right page-rightbar content">
         <div class="cards-component"><span class="cards-component__header"><i class="fas fa-bars"></i>
-                    class="icon icon--backchannel"></i>
+                   <i class="icon icon--backchannel"></i>
                 <h4 class="cards-component__title">backchannel</h4>
             </span>
             <div class="cards-component__row">
@@ -435,7 +443,9 @@
                 </div>
             </div>
         </div>
-        <div class="most-popular-side-bar-component most-popular-side-bar-component--medium-down-show">
+
+<!-- MostPop -->
+        <div class="most-popular-side-bar-component most-popular-side-bar-component--medium-down-show page-leftbar>
             <aside class="sidebar-component sidebar-component--right" style="height:100%">
                 <div style="opacity:1">
                     <div class="post-listing-component most-popular post-listing-component--with-border">
@@ -525,9 +535,11 @@
             </aside>
         </div>
     </div>
+<!-- ...EndBody...  -->
 
-    <footer><a to="/" aria-label="WIRED logo" href="/">Wired</a>
-        <ul>
+<!-- ...Footer... -->
+    <footer align="Center"><a to="/" aria-label="WIRED logo" href="/" class="newLine" >Wired</a>
+        <ul> 
             <li><a to="https://www.facebook.com/wired" target="_blank" href="https://www.facebook.com/wired">
                     <img src="https://image.flaticon.com/icons/png/128/1384/1384053.png"
                         data-src="https://image.flaticon.com/icons/png/128/1384/1384053.png" alt="Facebook"
@@ -608,6 +620,7 @@
             </p>
         </div>
     </footer>
+<!-- ...EndFooter... -->
 </body>
 
 </html>
