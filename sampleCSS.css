@@ -156,3 +156,26 @@ a:hover, a:visited, a:link, a:active {
 	top: 50%;
 }
 
+#subscribe a {
+    font-family: Fakt,sans-serif;
+    padding: 10px 10px;
+    color: inherit;
+    text-align: center;
+    border-radius: 5%;
+    position: absolute;
+    display: flex;
+    top: 30px;
+	right: 150px;
+}
+
+.header_account-links a {
+    color: inherit;
+    padding: 0;
+    border: none;
+    background: none;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 40px;
+    right: 90px;
+}
