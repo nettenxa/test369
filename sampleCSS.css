@@ -41,6 +41,14 @@ div.Left{
   }
   /* ............. */
 
+/* ============ desktop view ============ */
+@media all and (min-width: 992px) {
+	.navbar .nav-item .dropdown-menu{ display: none; }
+	.navbar .nav-item:hover .nav-link{ color: #fff;  }
+	.navbar .nav-item:hover .dropdown-menu{ display: block; }
+	.navbar .nav-item .dropdown-menu{ margin-top:0; }
+}	
+/* ============ desktop view .end// ============ */
 
 .grid {
 	  display: grid;
@@ -63,7 +71,7 @@ div.Left{
 	grid-area: leftbar;
 	font-size: 16px;
 	padding: auto;
-	background-color: #501478;
+	/* background-color: #501478; */
 }
 
 .page-rightbar {
@@ -71,21 +79,21 @@ div.Left{
 	grid-area: rightbar;
 	font-size: 16px;
 	padding: auto;
-	background-color: #774a97;
+	/* background-color: #774a97; */
 }
 #page-footer {
 	grid-template-columns: auto auto;
 	grid-area: footer;
 	font-size: 16px;
 	padding: auto;
-	background-color: #9900ff;
+	/* background-color: #9900ff; */
 }
 #page-end {
 	grid-template-columns: auto auto;
 	grid-area: footer;
 	font-size: 16px;
 	padding: auto;
-	background-color: #ffd900;
+	/* background-color: #ffd900; */
 }
 ul {
 	display: inline;
@@ -109,19 +117,20 @@ li a {
   }
 
 h4 {
+	/* font-size: 28px; */
 	color: black;
 }
 h1 {
 	text-align: center;
 	color: black;
-	background-color: #50C878
+	/* background-color: #50C878 */
 }
 
 nav {
 	font-size: 18px;
 }
 
-#aa{
+#none{
 	display: none;
 }
 #Fixed {
@@ -129,6 +138,7 @@ nav {
 	left: 0;
 	bottom: 0;
 	width: 100%;
+	top: auto;
 	color: white;
 	background-color: rgb(147, 119, 247);
 	text-align: center;
@@ -138,33 +148,11 @@ a:hover, a:visited, a:link, a:active {
 	text-decoration: none;
 
 } 
-/* .dropdown {
-	position: relative;
-	display: inline-block;
-  }
-  .dropdown-content {
-	display: none;
-	position: absolute;
-	background-color: #f1f1f1;
-	min-width: 160px;
-	overflow: auto;
-	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-	z-index: 1;
-  }
-  
-  .dropdown-content a {
-	color: black;
-	padding: 12px 16px;
-	text-decoration: none;
-	display: block;
-  } */
-/* #newsletter-subscribe{
+
+#newsletter-subscribe{
 	display: none;
 	position: absolute;
 	left: 0%;
-	top: 100%;
+	top: 50%;
 }
-.header:hover #newsletter-subscribe{
-	display: block;
-} */
 
