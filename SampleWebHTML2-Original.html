@@ -10,7 +10,7 @@
 
 <!-- ...Header... -->
 <body>
-    <header class="page-header">
+    <header class="header">
         <div id="logo-bar" class="logo-bar">
             <a class="logo logo--header" to="/" href="/"><i class="fab fa-hive" id="none"></i></a>
             <div class="logo-bar__wrapper Center ">
@@ -18,7 +18,7 @@
             </div>
             <div class="header_account-links Right">
                 <div>
-                    <div><a to="/account/sign-in/" href="/account/sign-in">Sign In</a></div>
+                    <div><a to="/account/sign-in/" href="/account/sign-in" >Sign In</a></div>
                 </div>
             </div>
             <div>
@@ -35,14 +35,15 @@
                 </div>
 
                 <div class="Right" id="subscribe">
-                    <a target="_blank" to="#" rel="" href="#">Subscribe</a>
+                    <a target="_blank" to="#" rel="" href="#" id="hover">Subscribe</a>
                 </div>
 
 
             </div>
-            <button style="float: right;"><i aria-label="Search Icon" class="fas fa-search"></i></button>
+            <button id="search-btn"><i aria-label="Search Icon" class="fas fa-search"></i></button>
         </div>
-        <nav align="Center">
+
+        <nav align="Center" id="border">
             <ul >
                 <li><a to="/category/backchannel/" href="/category/backchannel">backchannel</a></li>
                 <li><a to="/category/business/" href="/category/business">business</a></li>
@@ -53,7 +54,8 @@
                 <li><a to="/category/security/" href="/category/security">security</a></li>
             </ul>
         </nav>
-        <div>
+        
+        <div class="panel--nav">
             <div class="search-form-component Right"  id="none">
                 <form autocomplete="off">
                     <fieldset><input name="searchInput" value=""><label>Search</label><input type="submit"
@@ -93,7 +95,7 @@
                     </div>
                 </div>
 
-                <ul id="none">
+                <ul>
                     <li><a to="/podcasts/" title="Podcasts" href="/podcasts" >Podcasts</a></li>
                     <li><a to="/video/" title="Video" href="/video">Video</a></li>
                     <li><a to="/category/business/artificial-intelligence/" title="Artificial Intelligence"
@@ -134,7 +136,7 @@
                                         <div>
                                             <a to="#" href="#">
                                                 <iclass="icon icon--next-round-black"></i>
-                                                    <span>submit</span>
+                                                    <span id="none">submit</span>
                                             </a>
                                         </div>
                                     </div><input type="hidden" name="sourceCode" value="HeaderAndFooter">
@@ -532,7 +534,8 @@
                                                     Kehe</span></div>
                                         </div>
                                     </a></li>
-                            </ul><a class="link--arrow" to="/most-popular" href="/most-popular"><i
+                            </ul>
+                            <a class="link--arrow" text-align: center to="/most-popular" href="/most-popular" ><i
                                     class="icon icon--next-round-black"></i><span class="link__text">More
                                     Stories</span></a>
                         </div>
